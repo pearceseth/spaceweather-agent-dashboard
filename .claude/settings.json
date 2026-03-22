@@ -1,0 +1,40 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm *)",
+      "Bash(git checkout *)",
+      "Bash(git checkout -b *)",
+      "Bash(git diff *)",
+      "Bash(git log *)",
+      "Bash(git status)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git branch *)",
+      "Bash(node *)",
+      "Bash(cat *)",
+      "Bash(ls *)",
+      "Bash(mkdir -p *)",
+      "Read(**)",
+      "Write(packages/**)",
+      "Write(docs/**)",
+      "Write(.claude/plans/**)",
+      "Write(.claude/reviews/**)",
+      "Write(todos.md)",
+      "Write(CLAUDE.md)"
+    ],
+    "deny": [
+      "Bash(git push *)",
+      "Bash(git merge *)",
+      "Bash(git reset --hard *)",
+      "Bash(git rebase *)",
+      "Bash(rm -rf *)",
+      "Write(.env)",
+      "Write(.env.local)",
+      "Write(.env.*)",
+      "Write(docker-compose.yml)",
+      "Write(docker-compose.dev.yml)",
+      "Write(.github/**)",
+      "Write(docker/**)"
+    ]
+  }
+}
