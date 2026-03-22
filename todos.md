@@ -7,13 +7,13 @@ Tasks are organized in dependency order. Each task can be completed and tested i
 ## Phase 1: Monorepo Foundation
 
 ### 1.1 Initialize pnpm workspace and root configuration
-- [ ] Create `package.json` with workspace scripts (dev, build, lint, test, check)
-- [ ] Create `pnpm-workspace.yaml` pointing to `packages/*`
-- [ ] Create `turbo.json` with pipeline configuration
-- [ ] Create `tsconfig.base.json` with shared compiler options
-- [ ] Create `biome.json` for linting and formatting
-- [ ] Create `.env.example` with required environment variables
-- [ ] Create `.gitignore` for node_modules, dist, .next, .env.local
+- [x] Create `package.json` with workspace scripts (dev, build, lint, test, check)
+- [x] Create `pnpm-workspace.yaml` pointing to `packages/*`
+- [x] Create `turbo.json` with pipeline configuration
+- [x] Create `tsconfig.base.json` with shared compiler options
+- [x] Create `biome.json` for linting and formatting
+- [x] Create `.env.example` with required environment variables
+- [x] Create `.gitignore` for node_modules, dist, .next, .env.local
 
 **Test:** Run `pnpm install` successfully, `pnpm check` runs without errors on empty workspace
 
@@ -22,20 +22,20 @@ Tasks are organized in dependency order. Each task can be completed and tested i
 ## Phase 2: Docker Configuration (Early Validation)
 
 ### 2.1 Create minimal package stubs for Docker testing
-- [ ] Create `packages/types/package.json` with effect dependencies
-- [ ] Create `packages/types/tsconfig.json` extending base config
-- [ ] Create `packages/types/src/index.ts` with placeholder export
-- [ ] Create `packages/api/package.json` with effect-platform dependencies
-- [ ] Create `packages/api/tsconfig.json`
-- [ ] Create `packages/api/src/index.ts` with minimal HTTP server (health endpoint only)
-- [ ] Create `packages/agent/package.json` with anthropic-ai/sdk dependency
-- [ ] Create `packages/agent/tsconfig.json`
-- [ ] Create `packages/agent/src/index.ts` with placeholder export
-- [ ] Create `packages/web/package.json` with Next.js, React, Tailwind
-- [ ] Create `packages/web/tsconfig.json`
-- [ ] Create `packages/web/next.config.ts` with standalone output
-- [ ] Create `packages/web/src/app/layout.tsx` minimal layout
-- [ ] Create `packages/web/src/app/page.tsx` placeholder page
+- [x] Create `packages/types/package.json` with effect dependencies
+- [x] Create `packages/types/tsconfig.json` extending base config
+- [x] Create `packages/types/src/index.ts` with placeholder export
+- [x] Create `packages/api/package.json` with effect-platform dependencies
+- [x] Create `packages/api/tsconfig.json`
+- [x] Create `packages/api/src/index.ts` with minimal HTTP server (health endpoint only)
+- [x] Create `packages/agent/package.json` with anthropic-ai/sdk dependency
+- [x] Create `packages/agent/tsconfig.json`
+- [x] Create `packages/agent/src/index.ts` with placeholder export
+- [x] Create `packages/web/package.json` with Next.js, React, Tailwind
+- [x] Create `packages/web/tsconfig.json`
+- [x] Create `packages/web/next.config.ts` with standalone output
+- [x] Create `packages/web/src/app/layout.tsx` minimal layout
+- [x] Create `packages/web/src/app/page.tsx` placeholder page
 
 **Test:** `pnpm install && pnpm build` succeeds for all packages
 

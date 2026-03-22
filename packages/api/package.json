@@ -1,0 +1,28 @@
+{
+  "name": "@space-weather/api",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc --noEmit",
+    "dev": "node --import tsx src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@effect/platform": "^0.72.0",
+    "@effect/platform-node": "^0.68.0",
+    "@space-weather/types": "workspace:*",
+    "effect": "^3.21.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.0"
+  }
+}
