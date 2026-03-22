@@ -40,8 +40,8 @@ Tasks are organized in dependency order. Each task can be completed and tested i
 **Test:** `pnpm install && pnpm build` succeeds for all packages
 
 ### 2.2 Create .dockerignore
-- [ ] Create `.dockerignore` at repo root
-- [ ] Exclude node_modules, .next, dist, docs, .git
+- [x] Create `.dockerignore` at repo root
+- [x] Exclude node_modules, .next, dist, docs, .git
 
 **Test:** File exists and is properly formatted
 
