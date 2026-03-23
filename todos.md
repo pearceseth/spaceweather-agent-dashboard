@@ -54,9 +54,9 @@ Tasks are organized in dependency order. Each task can be completed and tested i
 **Test:** `docker build -f docker/api.Dockerfile .` succeeds
 
 ### 2.4 Create Web Dockerfile
-- [ ] Create `docker/web.Dockerfile`
-- [ ] Multi-stage build with Next.js standalone output
-- [ ] Handle NEXT_PUBLIC_API_URL build arg
+- [x] Create `docker/web.Dockerfile`
+- [x] Multi-stage build with Next.js standalone output
+- [x] Handle NEXT_PUBLIC_API_URL build arg
 
 **Test:** `docker build -f docker/web.Dockerfile .` succeeds
 
