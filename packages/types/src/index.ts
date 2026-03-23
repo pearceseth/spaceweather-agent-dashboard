@@ -8,3 +8,6 @@ export * from "./kp.js"
 
 // Solar wind types
 export * from "./solar-wind.js"
+
+// Status types
+export * from "./status.js"
