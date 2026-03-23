@@ -13,9 +13,13 @@
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "typecheck": "tsc --noEmit",
-    "dev": "tsc -w -p tsconfig.json"
+    "dev": "tsc -w -p tsconfig.json",
+    "test": "vitest run"
   },
   "dependencies": {
     "effect": "^3.21.0"
+  },
+  "devDependencies": {
+    "vitest": "^2.0.0"
   }
 }

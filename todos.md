@@ -80,9 +80,9 @@ Tasks are organized in dependency order. Each task can be completed and tested i
 ## Phase 3: @space-weather/types Package (Full Implementation)
 
 ### 3.1 Implement Kp and solar wind schemas
-- [ ] Create `packages/types/src/kp.ts` with KpReading and KpHistoryResponse schemas
-- [ ] Create `packages/types/src/solar-wind.ts` with SolarWindReading and history response schemas
-- [ ] Update `packages/types/src/index.ts` to re-export
+- [x] Create `packages/types/src/kp.ts` with KpReading and KpHistoryResponse schemas
+- [x] Create `packages/types/src/solar-wind.ts` with SolarWindReading and history response schemas
+- [x] Update `packages/types/src/index.ts` to re-export
 
 **Test:** Unit tests validate schema encoding/decoding with sample data
 
