@@ -87,7 +87,7 @@ Tasks are organized in dependency order. Each task can be completed and tested i
 **Test:** Unit tests validate schema encoding/decoding with sample data
 
 ### 3.2 Implement status schema
-- [ ] Create `packages/types/src/status.ts` with StatusResponse schema (kp, gScale, bz, bt, wind speed/density, x-ray, proton flux)
+- [x] Create `packages/types/src/status.ts` with StatusResponse schema (kp, gScale, bz, bt, wind speed/density, x-ray, proton flux)
 
 **Test:** Unit tests validate schema with complete and partial data
 
