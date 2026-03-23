@@ -61,10 +61,10 @@ Tasks are organized in dependency order. Each task can be completed and tested i
 **Test:** `docker build -f docker/web.Dockerfile .` succeeds
 
 ### 2.5 Create docker-compose.yml
-- [ ] Create `docker-compose.yml` for production
-- [ ] Define api service with healthcheck
-- [ ] Define web service depending on api
-- [ ] Configure environment variables from .env
+- [x] Create `docker-compose.yml` for production
+- [x] Define api service with healthcheck
+- [x] Define web service depending on api
+- [x] Configure environment variables from .env
 
 **Test:** `docker compose up --build` starts both services, health endpoint responds
 
