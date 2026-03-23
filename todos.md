@@ -69,9 +69,9 @@ Tasks are organized in dependency order. Each task can be completed and tested i
 **Test:** `docker compose up --build` starts both services, health endpoint responds
 
 ### 2.6 Create docker-compose.dev.yml
-- [ ] Create `docker-compose.dev.yml` development override
-- [ ] Mount source volumes for hot reload
-- [ ] Use builder stage targets
+- [x] Create `docker-compose.dev.yml` development override
+- [x] Mount source volumes for hot reload
+- [x] Use builder stage targets
 
 **Test:** `docker compose -f docker-compose.yml -f docker-compose.dev.yml up` works with hot reload
 
