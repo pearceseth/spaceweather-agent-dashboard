@@ -46,10 +46,10 @@ Tasks are organized in dependency order. Each task can be completed and tested i
 **Test:** File exists and is properly formatted
 
 ### 2.3 Create API Dockerfile
-- [ ] Create `docker/api.Dockerfile`
-- [ ] Multi-stage build: builder → runner
-- [ ] Install pnpm, build types → agent → api
-- [ ] Production stage with minimal dependencies
+- [x] Create `docker/api.Dockerfile`
+- [x] Multi-stage build: builder → runner
+- [x] Install pnpm, build types → agent → api
+- [x] Production stage with minimal dependencies
 
 **Test:** `docker build -f docker/api.Dockerfile .` succeeds
 
