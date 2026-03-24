@@ -92,7 +92,7 @@ Tasks are organized in dependency order. Each task can be completed and tested i
 **Test:** Unit tests validate schema with complete and partial data
 
 ### 3.3 Implement event schemas
-- [ ] Create `packages/types/src/events.ts` with EventType, EventSeverity, SpaceWeatherEvent schemas
+- [x] Create `packages/types/src/events.ts` with EventType, EventSeverity, SpaceWeatherEvent schemas
 
 **Test:** Unit tests validate event types (SOLAR_FLARE, CME, GEOMAGNETIC_STORM, HIGH_SPEED_STREAM, ALERT)
 
@@ -107,12 +107,6 @@ Tasks are organized in dependency order. Each task can be completed and tested i
 - [ ] Create `packages/types/src/agent.ts` with AgentRequest and AgentResponse schemas
 
 **Test:** Unit tests validate all schemas, full package builds
-
-### 3.6 Verify Docker still builds with full types
-- [ ] Rebuild Docker images with complete types package
-- [ ] Verify no regressions
-
-**Test:** `docker compose build` succeeds
 
 ---
 

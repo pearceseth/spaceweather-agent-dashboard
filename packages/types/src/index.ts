@@ -11,3 +11,6 @@ export * from "./solar-wind.js"
 
 // Status types
 export * from "./status.js"
+
+// Event types
+export * from "./events.js"
