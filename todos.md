@@ -97,8 +97,8 @@ Tasks are organized in dependency order. Each task can be completed and tested i
 **Test:** Unit tests validate event types (SOLAR_FLARE, CME, GEOMAGNETIC_STORM, HIGH_SPEED_STREAM, ALERT)
 
 ### 3.4 Implement aurora and forecast schemas
-- [ ] Create `packages/types/src/aurora.ts` with aurora forecast response schema
-- [ ] Create `packages/types/src/forecast.ts` with 3-day forecast schema
+- [x] Create `packages/types/src/aurora.ts` with aurora forecast response schema
+- [x] Create `packages/types/src/forecast.ts` with 3-day forecast schema
 
 **Test:** Unit tests validate both schemas
 

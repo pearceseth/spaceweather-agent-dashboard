@@ -14,3 +14,9 @@ export * from "./status.js"
 
 // Event types
 export * from "./events.js"
+
+// Aurora types
+export * from "./aurora.js"
+
+// Forecast types
+export * from "./forecast.js"
